@@ -1,59 +1,126 @@
-# Assignment3HomesApp
+# Part 1: Build a Personal Website Using HTML, CSS, and Bootstrap (70 points)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.7.
+## 📌 Assignment Overview
+In this assignment, you will design and build a **personal website** using **HTML**, **CSS**, and **Bootstrap**. The website should showcase your skills, experiences, and interests while applying key web development concepts such as **responsive design, navigation, forms, and multimedia integration**.
 
-## Development server
+🔐 **Privacy Note:**  
+To protect your privacy, you may use **filler text (e.g., Lorem Ipsum)** or **fake information** instead of real personal details.
 
-To start a local development server, run:
+---
 
-```bash
-ng serve
-```
+## 🎯 Learning Objectives
+By completing this assignment, you will:
+- Practice semantic HTML5 structure
+- Apply CSS for layout, styling, and responsiveness
+- Use Bootstrap components and grid system
+- Build responsive, multi-page or single-page websites
+- Deploy a website using GitHub Pages
+- Use Git and GitHub for version control
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 🧱 General Structure Requirements
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+You must choose **ONE** of the following approaches:
 
-```bash
-ng generate component component-name
-```
+### Option 1: Multi-Page Website (at least 4 pages)
+OR  
+### Option 2: Single Page Application (SPA)
+- All content in **one HTML file (`index.html`)**
+- Navigation bar links to different sections on the same page
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### Required Pages / Sections
+Your website must include:
 
-```bash
-ng generate --help
-```
+1. **Home**
+   - Introduction
+   - Profile image
+   - Brief bio
+   - Address
+2. **About Me**
+   - Personal and professional background
+   - Interests and hobbies
+3. **Portfolio / Projects**
+   - Showcase of projects, work, or achievements
+4. **Contact**
+   - Contact form for visitors
 
-## Building
+---
 
-To build the project run:
+## 🧩 HTML Requirements
+- Use **semantic HTML5 elements**, such as:
+  - `<header>`, `<nav>`, `<section>`, `<article>`, `<address>`, `<footer>`
+- Include a **navigation bar**
+- Include a **contact form** with:
+  - Name
+  - Email
+  - Message
+- Incorporate **multimedia elements**:
+  - Images, video, and/or audio
+- Create a **table** showing your weekly schedule
+  - Classes, work, extracurriculars, etc.
+- Include:
+  - Links to some of your favorite websites
+  - A **bullet list** of favorite movies or books
+  - An **ordered list** of hobbies or fun activities
 
-```bash
-ng build
-```
+---
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 🎨 CSS Requirements
+- Use an **external CSS file**
+- Style:
+  - Layout
+  - Typography
+  - Color schemes
+- Use **Flexbox or CSS Grid** for layouts
+- Include **hover effects and transitions** where appropriate
 
-## Running unit tests
+---
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## 🅱️ Bootstrap Requirements
+- Use **Bootstrap’s grid system** for responsiveness
+- Required Bootstrap components:
+  - Navbar (`.navbar`)
+  - Buttons (`.btn`)
+  - Cards (`.card`) for portfolio/projects
+  - Modals, alerts, or carousels (as needed)
+  - Bootstrap table (`.table`) for weekly schedule  
+    - Use different Bootstrap colors to differentiate activities
+  - Image carousel showcasing interests or experiences
+- Use **Bootstrap form controls**
+- Include **form validation**
+- Submit button must be properly styled
 
-```bash
-ng test
-```
+---
 
-## Running end-to-end tests
+## 📱 Responsiveness
+- Website must be fully responsive
+- Test on:
+  - Desktop
+  - Tablet
+  - Mobile devices
 
-For end-to-end (e2e) testing, run:
+---
 
-```bash
-ng e2e
-```
+## 🧹 Code Quality
+- Proper indentation and formatting
+- Comments explaining major sections
+- Meaningful class and ID names
+- Website should load correctly in major browsers
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+---
 
-## Additional Resources
+## 🚀 Hosting Requirement
+You will **host your website using GitHub Pages** and submit the **live website URL** (not the repository link).
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+## 📁 Recommended Project Structure
+/
+├── index.html
+├── css/
+│ └── styles.css
+├── images/
+│ └── (your images)
+├── MyWebsiteLink.txt
+└── README.md
+
